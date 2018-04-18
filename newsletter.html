@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>Photo experience[Tswilling!]</title>
+
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/font-awesome.min.css" rel="stylesheet">
+		<link href="main.css" rel="stylesheet">
+		<link href="datepicker/css/datepicker.css" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="datepicker/js/bootstrap-datepicker.js"></script>
+		<script>
+			$(function() {
+				$('.datepicker').datepicker();
+
+			});
+		</script>
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<i class="fa fa-bars" aria-hidden="true"></i>
+					</button>
+
+					<a class="navbar-brand" href="index.html">Tswilling!</a>
+				</div>
+
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="text.html" >Explore Gallery</a>
+					</li>
+					<li>
+						<a href="Info.html">Info</a>
+					</li>
+					<li>
+						<a href="contacts.html">Contacts</a>
+					</li>
+					<li>
+						<a href="newsletter.html">Newsletter</a>
+					</li>
+				</ul>
+
+				<ul class="nav navbar-nav navbar-right">
+					<li>
+						<a href="https://www.facebook.com" target="_blank"><span class="glyphicon glyphicon-thumbs-up"></span>Like us</a>
+					</li>
+				</ul>
+
+			</div>
+		</nav>
+		<div id = "headerwrap_news">
+			<div class = "container">
+				<div class="jumbotron">
+
+					<h1>Please join our email list</h1>
+
+					<form id="email_form" name="email_form" action="join.html" method="get">
+						<label for="email_1">Email Address:</label>
+						<input type="text" id="email_1" name="email_1">
+						<span>*</span>
+						<br>
+
+						<label for="email_2">Re-enter Email Address:</label>
+						<input type="text" id="email_2" name="email_2">
+						<span>*</span>
+						<br>
+
+						<label for="first_name">Your Name:</label>
+						<input type="text" id="first_name" name="first_name">
+						<span>*</span>
+						<br>
+
+						<label for="date">Your birthday:</label>
+						<input class="datepicker"type="text" name="date">
+
+						<br>
+						<br>
+
+						<label>&nbsp;</label>
+						<input type="submit" id="join" name="join" value="Join our List">
+						<input type="reset" id="reset" name="reset" value="Reset">
+						<br>
+					</form>
+
+				</div>
+			</div>
+		</div>
+
+		<script src="js/bootstrap.min.js"></script>
+		<script src="email_list.js"></script>
+
+	</body>
+</html>

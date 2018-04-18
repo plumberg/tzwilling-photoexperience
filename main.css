@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Kurale|Lato|Raleway');
+body{
+	background-color:#f2f2f2;
+	font-family: "Lato";
+	font-size: 16px;
+	font-weight: 300;
+	color: #262626;
+	
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+	
+	margin-top: 90px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family:"Kurale";
+	font-weight: 300;
+	color: #262626;
+}
+p{
+	font-family: "Raleway";
+line-height: 28px;
+margin-bottom:25px;	
+
+}
+
+a:hover, a:focus{
+	color:red;
+	outline:0;
+}
+
+.panel-body{
+	font-family:"Kurale";
+	font-weight: 100;
+	color: #F5E79E;
+}
+.navbar{
+	font-weight: 800;
+	font-size: 14px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	
+}
+.navbar-inverse{
+	background: #2d2d2d;
+	border-color: #2d2d2d;
+}
+/*.navbar-inverse .navbar-nav > .active > a {
+	background-color: #ff7878;
+} for active button*/
+.navbar-inverse .navbar-brand{
+	color: #999;
+	font-weight: bolder;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+.fa-bars{
+	font-size: 18px;
+	color: #999999;
+	font-weight: bolder;
+}
+#headerwrap{
+	background: url(img/photographer.jpg) no-repeat center top;
+	margin-top: -10px;
+	padding-top: 20px;
+	/*background-attachment: relative;*/
+	min-height: 500px;
+	width:100%;
+}
+#headerwrap_info{
+	background: url(img/rembo.jpg) no-repeat center top;
+	margin-top: -10px;
+	padding-top: 20px;
+	/*background-attachment: relative;*/
+	min-height: 500px;
+	width:100%;
+}
+#headerwrap_end{
+	background:#245580;
+		margin-top: -10px;
+	padding-top: 20px;
+	/*background-attachment: relative;*/
+	min-height: 500px;
+	width:100%;
+}
+#headerwrap_contact{
+	background: url(img/telephone-operators.jpg) no-repeat center top;
+	margin-top: -10px;
+	padding-top: 20px;
+	/*background-attachment: relative;*/
+	min-height: 500px;
+	width:100%;
+	 background-size: 100%;
+	
+}
+#headerwrap_news{
+	background: url(img/postman.jpg) no-repeat center top;
+	margin-top: -10px;
+	padding-top: 20px;
+	/*background-attachment: relative;*/
+	min-height: 500px;
+	width:100%;
+	 background-size: 100%;
+	
+}
+
+.jumbotron{
+	background-color:  #2d2d2d;
+	background-color: rgba(255,255,255,0.5);
+	
+}
+.navbar-right{
+	font-size:18px;
+}
+
+.sl{
+	width:  1000px;
+	height: 300px;
+	margin:70px auto;
+	
+}
+.item{
+	position:relative;
+
+}
+.item img{
+	width:50%;
+	height: auto;
+	display: block;
+}
+.cover-item-gallery{
+	background:#000;
+	opacity:.5;
+	position:absolute;
+	width:100%;
+	top:0;
+	bottom:0;
+	 display: none;
+}
+.cover-item-gallery a{
+	display: block;
+	width:100%;
+	height:100%;
+}
+
+nav a:hover{
+    border: 1px solid #fff;
+}
+.accordion {
+    background-color: #eee;
+    
+    color: #444;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+   
+}
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+.panel {
+    padding: 0 10px;
+    background-color: white;
+    display: none;
+}
